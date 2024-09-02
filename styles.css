@@ -1,0 +1,42 @@
+.index-body{
+
+    background-image:
+    linear-gradient(to left, rgba(19,32,49,1) 0%, rgba(19,32,49,1) 30%, rgba(19,32,49,0) 40%),
+        url('./img/odin-chef.jpg');
+    background-size: auto;
+    background-position: 320% 40%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #151C1C ;
+    font-family: 'Montserrat';
+    font-size:24px;
+}
+
+h1 {
+    color: #608080;
+    text-align: center;
+    font-size: 64px;
+}
+
+ul {
+    position: fixed;
+    bottom: 35%;
+    right: 10%; 
+}
+
+li {
+    color: #c79ec7;
+    margin: 18px 0;
+    
+}
+
+a {
+    color: #c79ec7;
+}
+
+.odin-recipes-logo{
+    position: fixed;
+    bottom: 60%;
+    right: 30%;
+    width: 300px;
+}
