@@ -1,7 +1,7 @@
 .index-body{
 
     background-image:
-    linear-gradient(to left, rgba(19,32,49,1) 0%, rgba(19,32,49,1) 30%, rgba(19,32,49,0) 40%),
+        linear-gradient(to left, rgba(19,32,49,1) 0%, rgba(19,32,49,1) 30%, rgba(19,32,49,0) 40%),
         url('./img/odin-chef.jpg');
     background-size: auto;
     background-position: 320% 40%;
@@ -12,13 +12,27 @@
     font-size:24px;
 }
 
-h1 {
+h1, .recipe h1 {
     color: #608080;
-    text-align: center;
-    font-size: 64px;
+    font-size: 48px;
 }
 
-ul {
+h1 {
+    
+    text-align: center;
+    
+}
+
+.recipe h1 {
+    text-align: left;    
+}
+
+.recipe h3 {
+    color: #608080;
+    font-size: 24px;
+}
+
+.index-body ul {
     position: fixed;
     bottom: 35%;
     right: 10%; 
@@ -28,6 +42,11 @@ li {
     color: #c79ec7;
     margin: 18px 0;
     
+}
+
+.recipe ul {
+    color: #608080;
+    font-size: 18px;   
 }
 
 a {
@@ -40,3 +59,15 @@ a {
     right: 30%;
     width: 300px;
 }
+
+p {
+    color: #c79ec7;
+}
+
+
+.recipe {
+    background-color: rgba(19,32,49,1);
+}
+
+
+
